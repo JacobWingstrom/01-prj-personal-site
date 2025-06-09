@@ -1,1 +1,105 @@
-/* Add you CSS here */
+/* Set a dark blue gradient background for the whole page */
+body {
+  /* This creates a gradient from top left to bottom right */
+  background: linear-gradient(135deg, #1a237e, #283593, #3949ab);
+  color: #f0f4ff; /* Light text for contrast */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* Style the main profile card */
+.profile-card {
+  background-color: #222b5a; /* Dark blue background */
+  border: 2px solid #3949ab; /* Slightly lighter blue border */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto 20px auto;
+  width: 80%;
+  box-shadow: 0 2px 8px rgba(30, 40, 100, 0.2);
+}
+
+/* Style for each section box */
+.section-box {
+  background-color: #232e5c; /* Slightly lighter dark blue */
+  border: 1.5px solid #3949ab;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 2px 8px rgba(30, 40, 100, 0.12);
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+/* Add a little effect when you hover over a box */
+.section-box:hover {
+  box-shadow: 0 4px 16px rgba(41, 73, 171, 0.22);
+  background-color: #283593;
+}
+
+/* Make the main title a lighter blue */
+h1 {
+  color: #90caf9;
+}
+
+/* Section titles */
+h3 {
+  color: #64b5f6;
+}
+
+/* Remove bullet points from lists */
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
+/* Style links for better visibility */
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Make profile image round if you add one later */
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Add a little space between sections */
+div {
+  margin-bottom: 25px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #e0e0e0; /* Light grey background */
+  padding: 12px 0;           /* Space above and below the links */
+  text-align: center;        /* Center the links */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* Soft shadow for separation */
+}
+
+/* Style for navigation links */
+.navbar a {
+  color: #1a237e;            /* Dark blue text for contrast */
+  text-decoration: none;     /* No underline */
+  margin: 0 15px;            /* Space between links */
+  font-weight: bold;         /* Bold text */
+  font-size: 16px;           /* Slightly bigger text */
+  transition: color 0.2s;    /* Smooth color change on hover */
+}
+
+/* Change color when hovering over a link */
+.navbar a:hover {
+  color: #3949ab;            /* Slightly lighter blue on hover */
+}
+
